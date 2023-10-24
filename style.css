@@ -22,6 +22,13 @@ button, .heartContainer{
 .heart {
     font-size: 70px;
     color: #ffffff;
+    transition: color 1s ease, transform 1s ease;
+}
+.heart:hover{
+    color: #6c1d9d;
+}
+.rotate {
+    transform: rotate(180deg);
 }
 button {
     border: none;

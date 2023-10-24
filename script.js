@@ -10,4 +10,7 @@ const toggleOff = () => {
     heart.classList.add("dead")
 }
 play.addEventListener("click", toggleOn);
-death.addEventListener("click", toggleOff)
+death.addEventListener("click", toggleOff);
+heart.addEventListener("click", () => {
+    heart.classList.toggle("rotate")
+});
