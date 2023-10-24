@@ -21,24 +21,30 @@ button, .heartContainer{
 }
 .heart {
     font-size: 70px;
-    color: #e91616;
+    color: #ffffff;
 }
 button {
     border: none;
     margin: 40px;
 }
 .play{
-    color: #6afd9e;
+    color: #ffffff;
 }
 .play, .skull {
     font-size: 40px;
     transition: color 1s ease;
 }
-.play:hover, .skull:hover {
+.play:hover {
+    color: black;
+}
+.skull:hover {
     color: #ffffff;
 }
 .beatElement {
     animation: beat 1s infinite;
+}
+.alive {
+    color: #e91616;
 }
 .dead {
     color: black;
